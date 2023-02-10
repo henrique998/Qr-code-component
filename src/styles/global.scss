@@ -5,8 +5,10 @@
 }
 
 :root {
-    --background: #FFFFFF;
-    --text: #000000;
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
 }
 
 :focus {
@@ -14,7 +16,7 @@
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--light-gray);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -24,15 +26,7 @@ textarea,
 button {
     font-weight: 400;
     font-size: 1rem;
-    color: var(--text);
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
+    font-family: 'Outfit', sans-serif;
 }
 
 button {
